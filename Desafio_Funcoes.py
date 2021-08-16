@@ -1,18 +1,21 @@
-def welcome(saudacao, nome):
+def welcome(saudacao, nome):  # 1-- Desafio da função de saudação
     print(f'{saudacao} {nome}')
 
 welcome('Olá Devs', 'Boa noite')
 welcome('Ainda tô dando meus baby-steps', ',mas chego lá!!!')
 welcome('Um dia chego no nível de vocês', ',me aguardem')
 
-def soma(n1, n2, n3):
+
+
+def soma(n1, n2, n3):   # 2-- Desafio da função de somar valores com parãmetros definidos
     print(n1 + n2 + n3)
 soma(55, 55, 15)
 soma(25, 30, 40)
 soma(52, 90, 8)
 
 
-def percentual(valor, porcentagem):
+
+def percentual(valor, porcentagem):  #3-- Desafio de função para percentual de números
     return valor+(valor*porcentagem/100)
 
 pct = percentual(100, 50)
@@ -25,7 +28,7 @@ pct = percentual(15, 100)
 print(pct)
 
 
-def fb(n):
+def fb(n):  # 4--Desafio 'FIZZ' "BUZZ'
     if n % 3 == 0 and n % 5 == 0:
         return f'FIZZBUZZ, {n} é divisivel por 3 e 5'
     if n % 5 == 0:
